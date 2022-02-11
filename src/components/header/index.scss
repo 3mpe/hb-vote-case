@@ -1,0 +1,26 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap-reverse;
+    margin: 12px;
+    padding: 12px;
+    border-bottom: 1px solid gray;
+    a {
+        color: gray;
+        text-decoration: none;
+    }
+
+    .left {
+        font-size: 34px;
+        color: gray;
+        span {
+            color: black;
+        }
+    }
+    .right {
+        span {
+            margin-right: 4px;
+        };
+    }
+}
